@@ -1,4 +1,6 @@
-FROM node:8-alpine
+FROM node:4-alpine
+
+MAINTAINER Aleksandar Diklic "https://github.com/rastasheep"
 
 RUN \
   echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories \
