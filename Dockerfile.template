@@ -9,6 +9,7 @@ RUN \
   && apk --no-cache  update \
   && apk --no-cache  upgrade \
   && apk add --no-cache --virtual .build-deps \
+    gifsicle pngquant optipng \
     udev ttf-opensans chromium \
   && rm -rf /var/cache/apk/* /tmp/*
 
