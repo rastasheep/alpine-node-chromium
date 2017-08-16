@@ -32,9 +32,16 @@ If you're interested into actual Karma configuration, it looks like:
 
 ### • Installed packages
 
+Chromium stuff
 - [udev](https://pkgs.alpinelinux.org/package/v3.5/main/x86_64/udev)
 - [ttf-opensans](https://pkgs.alpinelinux.org/package/edge/testing/x86_64/ttf-opensans)
 - [chromium](https://pkgs.alpinelinux.org/package/edge/community/x86_64/chromium)
+
+Image optimization libs
+- [gifsicle](https://pkgs.alpinelinux.org/package/edge/community/x86_64/gifsicle)
+- [pngquant](https://pkgs.alpinelinux.org/package/edge/community/x86_64/pngquant)
+- [optipng](https://pkgs.alpinelinux.org/package/v3.6/community/x86_64/optipng)
+- [libjpeg-turbo-utils](https://pkgs.alpinelinux.org/package/edge/main/x86_64/libjpeg-turbo-utils)
 
 ### • Environment variables
 - `CHROME_BIN=/usr/bin/chromium-browser`
