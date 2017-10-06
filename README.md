@@ -18,7 +18,7 @@ If you're interested into actual Karma configuration, it looks like:
   customLaunchers: {
     ChromiumNoSandbox: {
       base: 'ChromiumHeadless',
-      flags: ['--no-sandbox', '--headless', '--disabled-gpu']
+      flags: ['--no-sandbox', '--headless', '--disable-gpu', '--disable-translate', '--disable-extensions']
     }
   }
 ```
