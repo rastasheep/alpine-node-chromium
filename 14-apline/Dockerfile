@@ -1,5 +1,7 @@
 FROM node:14-alpine as base
 
+LABEL Aleksandar Diklic "https://github.com/rastasheep"
+
 RUN \
   echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories \
   && echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories \
