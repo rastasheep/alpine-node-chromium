@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:14-alpine as base
 
 LABEL Aleksandar Diklic "https://github.com/rastasheep"
 
