@@ -1,6 +1,6 @@
 FROM node:12-alpine
 
-MAINTAINER Aleksandar Diklic "https://github.com/rastasheep"
+LABEL org.opencontainers.image.authors="Aleksandar Diklic https://github.com/rastasheep"
 
 RUN \
   echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories \

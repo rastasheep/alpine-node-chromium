@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:14-alpine as base
 
 LABEL org.opencontainers.image.authors="Aleksandar Diklic https://github.com/rastasheep"
 
